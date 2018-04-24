@@ -23,6 +23,7 @@ namespace StatusPage
             currentServices.Add(new Services("Moodle", "https://learning.up.edu/moodle/login/index.php", true));
             currentServices.Add(new Services("Library", "https://library.up.edu", true));
             currentServices.Add(new Services("DegreeWorks", "https://degreeworks.up.edu", true));
+            //currentServices.Add(new Services("SelfServe", "https://selfserve.up.edu", true));
             currentServices.Add(new Services("University of Portland", "https://www.up.edu", true));
 
             Label2.Text = "All Services Operational";
